@@ -15,6 +15,11 @@ I have prototype measurement and intervention code, plus exploratory analyses. T
 The notes include an [experiment plan](research/decoder-experiment-plan.md), a proposed [hidden-state probe](research/hidden-state-probe.md), and [work completed so far](research/work-so-far.md).
 I have no validated result showing that the proposed decoder improves agent recovery.
 
+## Reuse my setup
+
+The [setup guide](setup/README.md) links the memory MCP installer, shared project context kit, and three skills for reviewing project work.
+It includes the tested versions and instructions for choosing the parts you need.
+
 ## Projects to inspect
 
 | Project | What you can review |
