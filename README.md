@@ -6,6 +6,15 @@ My projects include SQLite retrieval, MCP servers, task queues, model routing, a
 I am based in Madison, New Jersey. I am looking for AI builder and applied software roles, with a preference for New York City.
 I am open to relocation for the right role.
 
+## Research in progress
+
+I am researching [decoder-guided agent recovery](research/uncertainty-and-agent-supervision.md) using entropy measurements and recent agent activity.
+The idea is to help a supervisor choose a recovery action after a failure or an uncertainty spike.
+I have prototype measurement and intervention code, plus exploratory analyses. The decoder design still needs implementation and a controlled evaluation.
+
+The notes include an [experiment plan](research/decoder-experiment-plan.md), a proposed [hidden-state probe](research/hidden-state-probe.md), and [work completed so far](research/work-so-far.md).
+I have no validated result showing that the proposed decoder improves agent recovery.
+
 ## Projects to inspect
 
 | Project | What you can review |
@@ -26,11 +35,5 @@ Each repository explains its test setup and evidence limits.
 
 I use AI coding tools throughout my work. I focus on defining the task, checking the generated changes, and making results inspectable.
 The [project notes](projects.md) describe additional work whose source stays private.
-
-## Research in progress
-
-I am developing a [proposal on uncertainty and agent supervision](research/uncertainty-and-agent-supervision.md).
-It asks whether measured uncertainty can help a supervisor decide when to continue, replan, or delegate.
-I have not run the proposed experiments because I do not yet have the required compute and measurement resources.
 
 Contact: [GitHub](https://github.com/jhunter11)
