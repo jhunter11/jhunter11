@@ -3,8 +3,6 @@
 I build AI tools in Python and TypeScript, with a focus on agent memory, workflow controls, and evaluation.
 My projects include SQLite retrieval, MCP servers, task queues, model routing, and research pipelines that record failed ideas.
 
-I am based in Madison, New Jersey. I am looking for AI builder and applied software roles, with a preference for New York City.
-I am open to relocation for the right role.
 
 ## Research in progress
 
