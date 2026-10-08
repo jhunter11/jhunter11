@@ -9,7 +9,7 @@ I build Python and TypeScript tools for agent memory, workflow controls, and eva
 | --- | --- | --- |
 | [Multi-Agent Memory MCP](https://github.com/jhunter11/multi-agent-memory-MCP) | TypeScript, SQLite FTS5, MCP, typed graph retrieval | Tests, client examples, and a synthetic retrieval benchmark |
 | [AVP Tutor](https://github.com/jhunter11/avp-tutor) | Python tutor backend, execution snapshots, teaching-note retrieval, TypeScript client | Fork with upstream attribution, API tests, and browser tests with mocked model responses |
-| [CIFAR-10 CNN](https://github.com/jhunter11/CSE433-Final-CNN-Project) | PyTorch, ten weighted layers, configurable training launcher | Eight seeds averaged 96.84% selected validation accuracy. The results contain no held-out test accuracy. |
+| [CIFAR-10 CNN](https://github.com/jhunter11/CSE433-Final-CNN-Project) | PyTorch, ten weighted layers, configurable training launcher | Eight seeds averaged 96.84% selected validation accuracy. The eight-seed results contain no recorded test accuracy. |
 | [PMQS](https://github.com/jhunter11/pmqs) | Python replay, paper fills, settlement accounting, evidence checks | Synthetic examples and unit tests for research primitives |
 
 ## Additional engineering work
