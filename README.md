@@ -17,7 +17,7 @@ I build Python and TypeScript tools for agent memory, workflow controls, and eva
 [Demo Tutor](https://github.com/jhunter11/demo-tutor) is a smaller Python API chat demo with one editable code example and draft teaching instructions.
 The page sends code and supplied output to the model. It does not execute student code.
 
-[Jarvis Control](https://github.com/jhunter11/jarvis-control) contains task queues, model routing, memory interfaces, and typed authorization records.
+[Agent Workflow Control Plane](https://github.com/jhunter11/jarvis-control) contains task queues, model routing, memory interfaces, and typed authorization records.
 It is a development snapshot with documented test failures.
 
 [Event Contracts](https://github.com/jhunter11/eventcontracts) contains Python and Rust research, replay, and paper execution tools.

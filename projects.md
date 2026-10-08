@@ -5,7 +5,7 @@ They describe implemented components or documented plans, with no claim of deplo
 
 ## AI workflow systems
 
-The private Jarvis workspace supplies the source for the curated [Jarvis Control](https://github.com/jhunter11/jarvis-control) snapshot.
+A private working project supplies the source for the curated [Agent Workflow Control Plane](https://github.com/jhunter11/jarvis-control) snapshot.
 The public snapshot shows the task queue, model policy, memory interfaces, and authorization checks.
 Runtime configuration and operational records stay private.
 

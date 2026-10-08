@@ -46,7 +46,7 @@ Those checks cover the versions below. A later change needs its own check.
 | Memory MCP | [`c332e74`](https://github.com/jhunter11/multi-agent-memory-MCP/commit/c332e741c8f18267776a94a3fb6fd1621903d30b) |
 
 I checked the skill files for structure, writing, and scope. I have not measured whether they improve agent performance.
-Jarvis Control remains a separate development project with unresolved tests. It is outside this starter setup.
+The Agent Workflow Control Plane remains a separate development project with unresolved tests. It is outside this starter setup.
 
 The original files in this `setup` directory use the [MIT license](LICENSE).
 Linked projects retain their own licenses.
