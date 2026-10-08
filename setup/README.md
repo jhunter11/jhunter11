@@ -1,6 +1,6 @@
 # Reuse my agent setup
 
-These are the parts of my setup that I can share: a local memory MCP server, project context templates, and three skills.
+These are the parts of my setup that I can share: a local memory MCP server and three skills.
 The installers live with their source and tests. Each skill is a short Markdown file that you can inspect before use.
 
 ## Local memory through MCP
@@ -16,15 +16,6 @@ You can then print a client configuration and review the paths before writing it
 The [client examples](https://github.com/jhunter11/multi-agent-memory-MCP/tree/main/examples/clients) cover Claude Code, Codex, and OpenCode.
 The repository also has examples for local models through Ollama, LM Studio, and vLLM.
 The MCP client and selected model must support tool calls.
-
-## Shared project context
-
-[Team memory kit](https://github.com/jhunter11/avp-team-memory) shares project facts and decisions across coding tools through local files.
-Its Python installer previews changes by default. The `--apply` option writes the reviewed changes into an existing project.
-The kit starts with blank memory files and preserves existing records.
-
-The kit includes a context builder and adapters for Codex, Claude Code, Gemini CLI, Copilot, and Cursor.
-Review the generated context before sharing it with a model provider.
 
 ## Curated skills
 
@@ -48,13 +39,11 @@ An AI detector score can help flag text for review, but it cannot establish who 
 ## What I have checked
 
 On September 8, 2026, the memory MCP release checks passed with 87 tests.
-The team memory kit passed five tests.
 Those checks cover the versions below. A later change needs its own check.
 
 | Component | Reviewed commit |
 | --- | --- |
 | Memory MCP | [`c332e74`](https://github.com/jhunter11/multi-agent-memory-MCP/commit/c332e741c8f18267776a94a3fb6fd1621903d30b) |
-| Team memory kit | [`54c608f`](https://github.com/jhunter11/avp-team-memory/commit/54c608f9cc92eb0f892787788917c81f4d142e38) |
 
 I checked the skill files for structure, writing, and scope. I have not measured whether they improve agent performance.
 Jarvis Control remains a separate development project with unresolved tests. It is outside this starter setup.
